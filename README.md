@@ -4,19 +4,18 @@ FaceNet/VggFace as face embedding extraction
 and SVM as face classification
 It also includes dataset collection and a realtime application via USB camera
 
-
-Sure! Here are the steps to create a new Conda environment with the specified packages and then linking it to Jupyter Lab:
+Create a new Conda environment with the specified packages and then linking it to Jupyter Lab:
 
 First, open your terminal (or Anaconda prompt on Windows) and create a new conda environment (let's call it myenv) with Python 3.7.5:
 
-bash
-Copy code
+```
 conda create -n myenv python=3.7.5
+```
 Activate the new environment:
 
-bash
-Copy code
+```
 conda activate myenv
+```
 Now, install the specific versions of the packages you need in your new environment:
 
 ```
